@@ -82,3 +82,15 @@ header {
     height: 12rem;
     border: 1px dashed;
 }
+
+.even-big {
+    height: 22rem;
+    background-color: lightgrey;
+}
+
+.green {
+    background-color: green;
+    margin: 1rem 0;
+    height: 20rem;
+    width: 70%;
+}
