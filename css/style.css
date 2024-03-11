@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+/* Header */
+
+header {
+    background-color: aqua;
+    height: 18rem;
+
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.small-column {
+    background-color: goldenrod;
+    margin: 1rem 0;
+    border: 2px dashed;
+    height: 2rem;
+    width: 20%
+    
+    
+}
+
+.big-column {
+    text-align: center;
+    margin: 1rem 0;
+    border: 2px dashed;
+    background-color: goldenrod;
+    height: 2rem;
+    width: 40%
+}
+
+.login {
+    text-align: right;
+}
+
+.blue {
+    background-color: blue;
+    height: 14rem;
+    border-bottom: 5px solid aqua;
+}
+
+.pink-central {
+    background-color: rgb(238, 130, 238);
+    height: 10rem;
+    width: 50%;
+    margin: 2rem 0;
+    border: 1px dashed ;
+}
