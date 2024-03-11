@@ -20,6 +20,7 @@ header {
 }
 
 .small-column {
+    vertical-align:middle;
     background-color: goldenrod;
     margin: 1rem 0;
     border: 2px dashed;
@@ -31,6 +32,7 @@ header {
     text-align: center;
     margin: 1rem 0;
     border: 2px dashed;
+    vertical-align:middle;
     background-color: goldenrod;
     height: 2rem;
     width: 40%
@@ -58,6 +60,11 @@ header {
 
 .odd {
     height: 18rem;
+}
+
+.even {
+    height: 18rem;
+    background-color: lightgrey;
 }
 
 .light-blue {
