@@ -20,19 +20,19 @@ header {
 }
 
 .small-column {
-    vertical-align:middle;
+    padding-top: 9px;
     background-color: goldenrod;
     margin: 1rem 0;
     border: 2px dashed;
     height: 2rem;
-    width: 20%
+    width: 15%
 }
 
 .big-column {
+    padding-top: 9px;
     text-align: center;
     margin: 1rem 0;
     border: 2px dashed;
-    vertical-align:middle;
     background-color: goldenrod;
     height: 2rem;
     width: 40%
@@ -51,9 +51,9 @@ header {
 .pink-big {
     background-color: rgb(238, 130, 238);
     height: 10rem;
-    width: 50%;
+    width: 55%;
     margin: 2rem 0;
-    border: 1px dashed ;
+    border: 1px dashed;
 }
 
 /* Main content */
@@ -93,4 +93,53 @@ header {
     margin: 1rem 0;
     height: 20rem;
     width: 70%;
+    border: 1px dashed;
+}
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    height: 22rem;
+}
+
+.footer-column {
+    height: 18rem;
+    border-bottom: 3px solid white;
+    margin-bottom: 1rem;
+}
+
+.pink-column {
+    background-color: rgb(240, 128, 128);
+    width: 18%;
+    height: 17rem;
+    border: 1px dashed;
+    margin-bottom: 1rem;
+}
+
+.green-column {
+    background-color: rgb(32, 178, 170);
+    width: 13%;
+    height: 17rem;
+    border: 1px dashed white;
+    margin-bottom: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 3rem;
+    width: 70%;
+    margin: auto
+}
+
+.button {
+    background-color: rgb(255, 187, 200);
+    height: 1rem;
+    border: 1px dashed;
+    font-size: 22px;
+    padding-left: 3px;
 }
