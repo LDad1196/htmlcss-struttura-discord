@@ -5,10 +5,11 @@
     font-size: 25px;
 }
 
+
 /* Header */
 
 header {
-    background-color: aqua;
+    background-color: lightblue;
     height: 18rem;
 }
 
@@ -17,42 +18,41 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    width: 60%;
+    margin: 0 auto;
 }
 
-.small-column {
-    padding-top: 9px;
+.nav-column {
     background-color: goldenrod;
     margin: 1rem 0;
     border: 2px dashed;
-    height: 2rem;
-    width: 15%
+    padding: 1rem;
+}
+.small-nav-column {
+    width: 25%
 }
 
-.big-column {
-    padding-top: 9px;
+.big-nav-column {
     text-align: center;
-    margin: 1rem 0;
-    border: 2px dashed;
-    background-color: goldenrod;
-    height: 2rem;
-    width: 40%
+    width: 50%
 }
 
 .login {
     text-align: right;
 }
 
-.blue {
+#jumbotron {
     background-color: blue;
     height: 14rem;
-    border-bottom: 5px solid aqua;
+    border-bottom: 5px solid lightblue;
+    padding: 2rem;
 }
 
 .pink-big {
     background-color: rgb(238, 130, 238);
     height: 10rem;
-    width: 55%;
-    margin: 2rem 0;
+    width: 65%;
+    margin: 0 auto;
     border: 1px dashed;
 }
 
@@ -70,7 +70,7 @@ header {
 .light-blue {
     background-color: rgb(30, 144, 255);
     margin: 2rem 0;
-    width: 45%;
+    width: 60%;
     height: 12rem;
     border: 1px dashed;
 }
@@ -78,20 +78,16 @@ header {
 .pink {
     background-color: pink;
     margin: 2rem 0;
-    width: 25%;
+    width: 40%;
     height: 12rem;
     border: 1px dashed;
 }
 
-.even-big {
-    height: 20rem;
-    background-color: lightgrey;
-}
 
 .green {
     background-color: green;
     margin: 1rem 0;
-    height: 18rem;
+    height: 14rem;
     width: 70%;
     border: 1px dashed;
 }
@@ -100,13 +96,13 @@ header {
 
 footer {
     background-color: #222;
-    height: 22rem;
+    height: 21rem;
 }
 
 .footer-column {
     height: 17rem;
-    border-bottom: 3px solid white;
     margin-bottom: 1rem;
+    border-bottom: 3px solid white;
 }
 
 .pink-column {
@@ -132,7 +128,7 @@ footer {
     align-items: center;
     background-color: aqua;
     height: 3rem;
-    width: 70%;
+    width: 60%;
     margin: auto
 }
 
